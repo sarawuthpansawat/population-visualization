@@ -1,3 +1,3 @@
 ﻿# population-visualization
-npm install
-node server.js
+# 1.npm install
+# 2 run node server.js
