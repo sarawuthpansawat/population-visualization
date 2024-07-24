@@ -35,9 +35,9 @@ const convertKeysToSnakeCase = (data) => {
 
 app.get('/api/population', (req, res) => {
   const snakeCaseData = convertKeysToSnakeCase(data);
-  const limitedData = snakeCaseData.slice(0, 217); // Limit to 217 records
-  res.json(limitedData);
-//   res.json(snakeCaseData);
+  // const limitedData = snakeCaseData.slice(0, 217); // Limit to 217 records
+  // res.json(limitedData);
+   res.json(snakeCaseData);
 });
 
 const PORT = process.env.PORT || 5000;
